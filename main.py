@@ -50,3 +50,10 @@ def print_hi(name):
 #     result = x + y + 4
 #     result *= 2
 #     return result
+
+
+def forked_repo_function():
+    print("this function is created by a branch from a forked repo")
+    x = 1
+    x = x * 4
+    return x
