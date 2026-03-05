@@ -3,6 +3,7 @@ def add_numbers(a, b):
 
     This function will be tested.
     """
+    print("Adding two numbers together")
     return a + b
 
 
@@ -45,8 +46,12 @@ def is_even(n):
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-#
-# def special_function(x,y):
-#     result = x + y + 4
-#     result *= 2
-#     return result
+
+def special_function(x,y):
+    result = x + y + 4
+    result *= 2
+    if result > 20:
+        print("The result is greater than 20")
+        result *= 2
+        print(result)
+    return result
