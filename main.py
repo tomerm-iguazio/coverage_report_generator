@@ -49,4 +49,8 @@ def print_hi(name):
 def special_function(x,y):
     result = x + y + 4
     result *= 2
+    if result > 20:
+        print("The result is greater than 20")
+        result *= 2
+        print(result)
     return result
