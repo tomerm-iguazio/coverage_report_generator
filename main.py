@@ -3,6 +3,7 @@ def add_numbers(a, b):
 
     This function will be tested.
     """
+    print("Adding two numbers together")
     return a + b
 
 
