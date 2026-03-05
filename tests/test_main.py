@@ -39,6 +39,9 @@ class TestMultiplyNumbers:
         assert multiply_numbers(-2, 3) == -6
         assert multiply_numbers(-2, -3) == 6
 
-
+    def test_special_function(self):
+        """Test the special_function"""
+        from main import special_function
+        assert special_function(0, 0) == 8
 # Note: divide_numbers and print_hi are NOT tested
 # This will show up as uncovered code in the coverage report
